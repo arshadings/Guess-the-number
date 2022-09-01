@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+
+#container{
+    background-color: #333232;
+    height: 200px;
+    width: 50%;
+    border: 5px solid rgb(255, 0, 0);
+    color: #fff;
+    margin: auto;
+    text-align: center;
+}
+
+#btn{
+    margin-top: 15px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+}
+#btn:hover {
+    transition: 0.5s;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
