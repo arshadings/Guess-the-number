@@ -2,7 +2,7 @@ let btn = document.getElementById('btn');
 let output = document.getElementById('outputText');
 let cnt = document.getElementById('cnt');
 let count = 0;
-let number = 45;
+let number = Math.floor((Math.random() * 100) + 1);
 
 btn.addEventListener('click', function(){
     
