@@ -9,7 +9,7 @@ btn.addEventListener('click', function(){
     let input = document.getElementById('inputText').value; 
     if(number == input){
         output.innerHTML = `You made it, your number is ${number}`;
-        cnt.innerHTML = `it took ${count}`
+        cnt.innerHTML = `you took ${count} attempts to guess the number`
     }
     else if(input > number){
         output.innerHTML = "Guess is high";
